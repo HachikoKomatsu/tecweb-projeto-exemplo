@@ -82,6 +82,7 @@ WSGI_APPLICATION = 'editora.wsgi.application'
 #         'NAME': BASE_DIR / 'db.sqlite3',
 #     }
 # }
+
 DATABASES = {
     'default': dj_database_url.config(
         default='postgres://exemplo_livro_user:xrxp2Ll3CzWToWYVnAVBG9osmXgUST3g@dpg-cns7evol6cac73astikg-a.oregon-postgres.render.com/exemplo_livro',
