@@ -85,7 +85,7 @@ WSGI_APPLICATION = 'editora.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(
-        default='postgres://exemplo_livro_user:xrxp2Ll3CzWToWYVnAVBG9osmXgUST3g@dpg-cns7evol6cac73astikg-a.oregon-postgres.render.com/exemplo_livro',
+        default='postgres://exemplo_livro_db_user:SYsjr9EfAvvHp00CT0YQ6nQSeSCaFMm5@dpg-cnsa6dmn7f5s7382es9g-a.oregon-postgres.render.com/exemplo_livro_db',
         conn_max_age=600,
         ssl_require=not DEBUG
     )
